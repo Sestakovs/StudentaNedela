@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="lv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Viena darba nedēļa Datorikas nodaļas studenta dzīvē - responsīva statiska tīmekļa vietne ar gaišo un tumšo režīmu."
+    />
+    <title>Viena darba nedēļa Datorikas nodaļas studenta dzīvē</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rubik:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#saturs">Pāriet uz saturu</a>
+
+    <header class="site-header">
+      <a class="brand" href="#sakums" aria-label="Atgriezties sākumā">
+        <span class="brand-mark">DN</span>
+        <span>Studenta nedēļa</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Atvērt navigāciju</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Galvenā navigācija">
+        <a href="#sakums">Sākums</a>
+        <a href="#pirmdiena">Pirmdiena</a>
+        <a href="#otrdiena">Otrdiena</a>
+        <a href="#tresdiena">Trešdiena</a>
+        <a href="#ceturtdiena">Ceturtdiena</a>
+        <a href="#piektdiena">Piektdiena</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="Pārslēgt krāsu režīmu">
+        <span class="theme-icon" aria-hidden="true">☾</span>
+        <span class="theme-label">Tumšais</span>
+      </button>
+    </header>
+
+    <main id="saturs">
+      <section class="hero section-band" id="sakums">
+        <div class="hero-media" role="img" aria-label="Noskaņas ilustrācija par studenta darba nedēļu"></div>
+        <div class="hero-content">
+          <p class="eyebrow">I. Patstāvīgais darbs</p>
+          <h1>Viena darba nedēļa Datorikas nodaļas studenta dzīvē</h1>
+          <p class="lead">
+            Šī vienas lapas vietne parāda, kā darba nedēļā savienojas lekcijas,
+            digitālie rīki, ceļš uz universitāti, komandas darbs un personīgā
+            plānošana. Dizains pielāgojas datoram un telefonam, bet krāsu režīmu
+            var pārslēgt pēc vajadzības.
+          </p>
+          <div class="hero-meta" aria-label="Darba informācija">
+            <span>Autors: <strong>Vladislav Shestakov</strong></span>
+            <span>Valoda: latviešu</span>
+            <span>Bez datubāzes, tikai frontend</span>
+          </div>
+        </div>
+      </section>
+
+      <aside class="page-index" aria-label="Sadaļu rādītājs">
+        <a href="#sakums">Sākums</a>
+        <a href="#pirmdiena">Digitālā vide</a>
+        <a href="#otrdiena">Lekcijas</a>
+        <a href="#tresdiena">Ceļš</a>
+        <a href="#ceturtdiena">Komandas darbs</a>
+        <a href="#piektdiena">Kopsavilkums</a>
+      </aside>
+
+      <section class="content-section" id="pirmdiena">
+        <div class="section-copy">
+          <p class="day-label">Pirmdiena</p>
+          <h2>Digitālā vide un nedēļas sākums</h2>
+          <p>
+            Pirmdiena sākas ar mierīgu sistēmu pārbaudi: e-studiju kursu jaunumi,
+            kalendārs, lekciju ieraksti un uzdevumu termiņi. Datorikas nodaļas
+            studentam tas nav tikai formāls rituāls, jo no šīs informācijas
+            veidojas visas nedēļas ritms. Es pārskatu kursu aprakstus, atzīmēju
+            praktisko darbu nodošanas datumus un sadalu lielākus uzdevumus mazākos
+            soļos. Digitālā vide palīdz nepazaudēt svarīgo, taču prasa disciplīnu:
+            ja paziņojumi tiek ignorēti, vēlāk rodas lieks stress. Pirmdienas
+            mērķis ir iegūt skaidru priekšstatu par to, kas ir obligāts, kas ir
+            ieteicams un ko var atlikt. Šāda plānošana dod drošāku startu visai
+            darba nedēļai un ļauj mācīties ar mazākām pauzēm.
+          </p>
+          <a class="text-link" href="https://estudijas.lu.lv/" target="_blank" rel="noreferrer">
+            E-studiju vide
+          </a>
+        </div>
+        <figure class="section-visual visual-digital">
+          <div class="image-placeholder">
+            <span>Šeit ievieto attēlu par digitālo vidi</span>
+          </div>
+          <figcaption>Paziņojumi, kalendārs un kursu materiāli vienā darba sākumā.</figcaption>
+        </figure>
+      </section>
+
+      <section class="content-section content-section--reverse" id="otrdiena">
+        <div class="section-copy">
+          <p class="day-label">Otrdiena</p>
+          <h2>Klātienes lekcijas un praktiskie darbi</h2>
+          <p>
+            Otrdienā galvenā uzmanība tiek veltīta lekcijām un praktiskajiem
+            darbiem. Klātienes nodarbībā ir vieglāk uzdot jautājumu tieši brīdī,
+            kad rodas neskaidrība, tāpēc pieraksti kļūst precīzāki un piemēri
+            labāk paliek atmiņā. Praktiskajā daļā teorija ātri kļūst redzama:
+            algoritma ideja pārvēršas kodā, bet kļūdas konsolē parāda, kur domāšanā
+            bijis iztrūkums. Šajā dienā svarīgi paņemt līdzi ne tikai datoru, bet
+            arī iepriekš sagatavotus jautājumus. Ja darbs tiek sākts laicīgi,
+            konsultācija ar pasniedzēju vai kursabiedriem ir daudz vērtīgāka.
+            Otrdiena parasti ir intensīva, tomēr tā dod sajūtu, ka studijas nav
+            abstrakts process, bet konkrētu prasmju trenēšana.
+          </p>
+          <a class="text-link" href="https://www.lu.lv/studijas/" target="_blank" rel="noreferrer">
+            Informācija par studijām
+          </a>
+        </div>
+        <figure class="section-visual visual-lecture">
+          <div class="image-placeholder">
+            <span>Šeit ievieto attēlu par lekciju vai auditoriju</span>
+          </div>
+          <figcaption>Auditorijas darbs palīdz ātrāk saprast sarežģītas tēmas.</figcaption>
+        </figure>
+      </section>
+
+      <section class="content-section" id="tresdiena">
+        <div class="section-copy">
+          <p class="day-label">Trešdiena</p>
+          <h2>Ceļš uz nodarbībām un laika plānošana</h2>
+          <p>
+            Trešdiena bieži parāda, cik ļoti studiju kvalitāti ietekmē ikdienas
+            loģistika. Ceļš uz nodarbībām nav tikai pārvietošanās no vienas vietas
+            uz citu; tas ir laiks, kurā var atkārtot prezentācijas punktus,
+            noklausīties lekcijas fragmentu vai sakārtot domas pirms pārbaudes
+            darba. Ja transports kavējas vai starp nodarbībām ir garāka pauze,
+            plāns ir jāpielāgo. Tāpēc es cenšos paturēt rezervi un iepriekš zinu,
+            kurā brīdī varu mācīties bibliotēkā, kafejnīcā vai klusākā universitātes
+            telpā. Šī diena māca, ka produktivitāte nav tikai ātra strādāšana.
+            Tā ir spēja laikus izvēlēties, kur ieguldīt enerģiju, lai vakarā
+            nepietrūktu spēka svarīgākajiem uzdevumiem.
+          </p>
+          <a class="text-link" href="https://saraksti.lu.lv/" target="_blank" rel="noreferrer">
+            Nodarbību saraksti
+          </a>
+        </div>
+        <figure class="section-visual visual-route">
+          <div class="image-placeholder">
+            <span>Šeit ievieto attēlu par ceļu uz studijām</span>
+          </div>
+          <figcaption>Ceļš un pauzes kļūst par daļu no mācību ritma.</figcaption>
+        </figure>
+      </section>
+
+      <section class="content-section content-section--reverse" id="ceturtdiena">
+        <div class="section-copy">
+          <p class="day-label">Ceturtdiena</p>
+          <h2>Komandas darbs un tiešsaistes saziņa</h2>
+          <p>
+            Ceturtdienā lielu daļu laika aizņem grupu darbi un tiešsaistes
+            saziņa. Datorikas studijās reti pietiek ar to, ka katrs strādā savā
+            pusē un beigās saliek rezultātu kopā. Kvalitatīvs projekts prasa
+            vienotu failu struktūru, skaidrus pienākumus un regulāru pārbaudi, vai
+            visi saprot mērķi vienādi. Videokonferences un koplietoti dokumenti
+            palīdz ātri saskaņot idejas, bet tie arī atklāj, cik svarīgi ir runāt
+            konkrēti. Es pierakstu lēmumus, sadalu nākamos darbus un pārbaudu, vai
+            uzdevumi nav pārāk plaši. Šajā dienā redzams, ka tehniskās prasmes un
+            komunikācija nav atsevišķas lietas. Labu risinājumu veido gan kods,
+            gan spēja savlaicīgi paskaidrot savu izvēli.
+          </p>
+          <a class="text-link" href="https://github.com/" target="_blank" rel="noreferrer">
+            GitHub projektu darbam
+          </a>
+        </div>
+        <figure class="section-visual visual-team">
+          <div class="image-placeholder">
+            <span>Šeit ievieto attēlu par komandas darbu</span>
+          </div>
+          <figcaption>Kopīga plānošana samazina pārpratumus un lieku darbu.</figcaption>
+        </figure>
+      </section>
+
+      <section class="content-section" id="piektdiena">
+        <div class="section-copy">
+          <p class="day-label">Piektdiena</p>
+          <h2>Nedēļas noslēgums un atjaunošanās</h2>
+          <p>
+            Piektdienā svarīgākais ir godīgi izvērtēt paveikto. Es pārskatu
+            iesniegtos darbus, saglabāju noderīgus materiālus un pierakstu, kas
+            jāpabeidz nākamajā nedēļā. Šāds noslēgums palīdz neatstāt visu
+            atmiņas ziņā, jo pēc brīvdienām detaļas ātri pazūd. Tajā pašā laikā
+            studentam ir vajadzīga arī atjaunošanās: pastaiga, treniņš, saruna ar
+            draugiem vai kāds ārpusstudiju pasākums universitātē. Ja nedēļa bijusi
+            intensīva, brīvais laiks nav slinkums, bet veids, kā saglabāt
+            koncentrēšanos ilgākā periodā. Piektdiena parāda līdzsvaru starp
+            rezultātu un pašsajūtu. Labi noslēgta darba nedēļa ļauj sākt nākamo
+            ciklu ar skaidrāku galvu un reālistiskāku plānu.
+          </p>
+          <a class="text-link" href="https://www.lu.lv/par-mums/lu-mediji/zinas/" target="_blank" rel="noreferrer">
+            Universitātes jaunumi
+          </a>
+        </div>
+        <figure class="section-visual visual-summary">
+          <div class="image-placeholder">
+            <span>Šeit ievieto attēlu par nedēļas noslēgumu</span>
+          </div>
+          <figcaption>Noslēgums palīdz saglabāt ritmu un nepazaudēt nākamos soļus.</figcaption>
+        </figure>
+      </section>
+
+      <section class="planner-section" aria-labelledby="planner-title">
+        <div class="planner-copy">
+          <p class="day-label">Frontend CRUD piemērs</p>
+          <h2 id="planner-title">Nedēļas uzdevumu plānotājs</h2>
+          <p>
+            Šis bloks darbojas bez datubāzes: ierakstus var pievienot, labot,
+            atzīmēt kā pabeigtus un dzēst. Dati saglabājas pārlūkā ar localStorage,
+            tāpēc GitHub Pages publicēšanai nav vajadzīgs serveris.
+          </p>
+        </div>
+
+        <div class="planner-app">
+          <form class="task-form" id="task-form">
+            <label>
+              Uzdevums
+              <input id="task-title" name="title" type="text" maxlength="80" placeholder="Piemēram: sagatavot laboratorijas darbu" required />
+            </label>
+            <label>
+              Diena
+              <select id="task-day" name="day">
+                <option>Pirmdiena</option>
+                <option>Otrdiena</option>
+                <option>Trešdiena</option>
+                <option>Ceturtdiena</option>
+                <option>Piektdiena</option>
+              </select>
+            </label>
+            <button class="primary-button" type="submit">Pievienot</button>
+          </form>
+
+          <div class="task-toolbar" aria-label="Uzdevumu filtri">
+            <button class="filter-button is-active" type="button" data-filter="all">Visi</button>
+            <button class="filter-button" type="button" data-filter="active">Aktīvie</button>
+            <button class="filter-button" type="button" data-filter="done">Pabeigtie</button>
+          </div>
+
+          <ul class="task-list" id="task-list" aria-live="polite"></ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        Darba nosaukums: <strong>Viena darba nedēļa Datorikas nodaļas studenta dzīvē</strong>
+      </p>
+      <p>Autors: <strong>Vladislav Shestakov</strong></p>
+    </footer>
+
+    <template id="task-template">
+      <li class="task-item">
+        <label class="task-check">
+          <input type="checkbox" />
+          <span class="task-status"></span>
+        </label>
+        <div class="task-content">
+          <strong></strong>
+          <span></span>
+        </div>
+        <div class="task-actions">
+          <button type="button" data-action="edit">Labot</button>
+          <button type="button" data-action="delete">Dzēst</button>
+        </div>
+      </li>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>
