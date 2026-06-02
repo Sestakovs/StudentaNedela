@@ -6,7 +6,6 @@ Statiska frontend vietne GitHub Pages publicēšanai. Projektā ir:
 - latviešu teksts katrai saturiskajai sadaļai;
 - responsīvs dizains datoram, planšetei un telefonam;
 - gaišais un tumšais režīms;
-- frontend CRUD plānotājs bez datubāzes, izmantojot `localStorage`;
 - attēlu vietturi, kurus vēlāk var aizstāt ar autora bildēm.
 
 ## GitHub Pages publicēšana

@@ -216,45 +216,6 @@
         </figure>
       </section>
 
-      <section class="planner-section" aria-labelledby="planner-title">
-        <div class="planner-copy">
-          <p class="day-label">Frontend CRUD piemērs</p>
-          <h2 id="planner-title">Nedēļas uzdevumu plānotājs</h2>
-          <p>
-            Šis bloks darbojas bez datubāzes: ierakstus var pievienot, labot,
-            atzīmēt kā pabeigtus un dzēst. Dati saglabājas pārlūkā ar localStorage,
-            tāpēc GitHub Pages publicēšanai nav vajadzīgs serveris.
-          </p>
-        </div>
-
-        <div class="planner-app">
-          <form class="task-form" id="task-form">
-            <label>
-              Uzdevums
-              <input id="task-title" name="title" type="text" maxlength="80" placeholder="Piemēram: sagatavot laboratorijas darbu" required />
-            </label>
-            <label>
-              Diena
-              <select id="task-day" name="day">
-                <option>Pirmdiena</option>
-                <option>Otrdiena</option>
-                <option>Trešdiena</option>
-                <option>Ceturtdiena</option>
-                <option>Piektdiena</option>
-              </select>
-            </label>
-            <button class="primary-button" type="submit">Pievienot</button>
-          </form>
-
-          <div class="task-toolbar" aria-label="Uzdevumu filtri">
-            <button class="filter-button is-active" type="button" data-filter="all">Visi</button>
-            <button class="filter-button" type="button" data-filter="active">Aktīvie</button>
-            <button class="filter-button" type="button" data-filter="done">Pabeigtie</button>
-          </div>
-
-          <ul class="task-list" id="task-list" aria-live="polite"></ul>
-        </div>
-      </section>
     </main>
 
     <footer class="site-footer">
@@ -263,23 +224,6 @@
       </p>
       <p>Autors: <strong>Vladislav Shestakov</strong></p>
     </footer>
-
-    <template id="task-template">
-      <li class="task-item">
-        <label class="task-check">
-          <input type="checkbox" />
-          <span class="task-status"></span>
-        </label>
-        <div class="task-content">
-          <strong></strong>
-          <span></span>
-        </div>
-        <div class="task-actions">
-          <button type="button" data-action="edit">Labot</button>
-          <button type="button" data-action="delete">Dzēst</button>
-        </div>
-      </li>
-    </template>
 
     <script src="script.js"></script>
   </body>
