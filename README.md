@@ -6,7 +6,7 @@ Statiska frontend vietne GitHub Pages publicēšanai. Projektā ir:
 - latviešu teksts katrai saturiskajai sadaļai;
 - responsīvs dizains datoram, planšetei un telefonam;
 - gaišais un tumšais režīms;
-- attēlu vietturi, kurus vēlāk var aizstāt ar autora bildēm.
+- seši autora fotoattēli, konvertēti no HEIC uz JPG, lai tie darbotos pārlūkā.
 
 ## GitHub Pages publicēšana
 
@@ -17,6 +17,7 @@ Statiska frontend vietne GitHub Pages publicēšanai. Projektā ir:
 5. Pie `Branch` izvēlies `main` un mapi `/root`.
 6. Saglabā. Pēc dažām minūtēm GitHub parādīs publisko saiti.
 
-## Kas jānomaina pirms nodošanas
+## Kas jāpārbauda pirms nodošanas
 
-- Attēlu vietturus aizstāj ar savām bildēm, kad tās ir gatavas.
+- Pārliecinies, ka autora vārds un uzvārds titullaukā ir pareizs.
+- Pēc publicēšanas atver GitHub Pages saiti telefonā un datorā.
